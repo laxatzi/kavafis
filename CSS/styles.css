@@ -84,7 +84,7 @@ p:last-child {
       position: relative;
       padding-left: 90px;
     }
-
+    .timeli
     .timeline__box:last-of-type {
       margin-bottom: 0;
     }
@@ -112,6 +112,13 @@ p:last-child {
        }
        .timeline__month {
          text-transform: uppercase;
+       }
+
+       .timeline__content {
+         background-color: var(--timelineSecondaryColor);
+         border-left: 3px solid var(--timelineBgColor);
+         border-radius: 3px;
+         padding: 1.5rem 2rem;
        }
 
 
