@@ -26,8 +26,12 @@ body {
 }
 
 .wrapper {
-  width: 80%;
-  margin: 0 auto;
-  padding: 5rem 2rem;
+  width: 60%;
+  margin: 0 auto; 
   border: 1px solid red;
+}
+p {
+  border: 1px solid black;
+  line-height: 1.45;
+  margin-bottom: 1.5rem;
 }
