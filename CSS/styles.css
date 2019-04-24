@@ -53,4 +53,8 @@ p:last-child {
       --timelineMainColor: var(--timelineMainColor, #222);
       --timelineSecondaryColor: var(--timelineMainColor, #fff);
       --timelineBgColor: var(--timelineBgColor, #4557bb);
+      font-size: 1.5rem;
+      padding: 3rem 0;
+      position: relative;
+      border: 1px solid green;
     }
