@@ -58,3 +58,8 @@ p:last-child {
       position: relative;
       border: 1px solid green;
     }
+
+    .timeline__group {
+      border: 3px solid blue; 
+      margin-bottom: 5px;
+    }
