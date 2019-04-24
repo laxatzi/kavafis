@@ -1,12 +1,14 @@
-/* color #333333 rgb(51, 51, 51)*/
-/* bgcol #EEE  */
-/* main #C0392B */
-/* second #E74C3C */
+:root {
+  --timelineMainColor: #222;
+  --timelineSecondaryColor:  #fff;
+  --timelineBgColor:  #4557bb;
+}
 
 html {
   box-sizing: border-box;
   font-size: 10px;
 }
+
 *,
 *:before,
 *:after {
@@ -50,9 +52,7 @@ p:last-child {
      border: 1px solid black;
    }
     .timeline {
-      --timelineMainColor: var(--timelineMainColor, #222);
-      --timelineSecondaryColor: var(--timelineMainColor, #fff);
-      --timelineBgColor: var(--timelineBgColor, #4557bb);
+   
       font-size: 1.5rem;
       padding: 3rem 0;
       position: relative;
@@ -61,5 +61,20 @@ p:last-child {
 
     .timeline__group {
       border: 3px solid blue; 
-      margin-bottom: 5px;
+      position: relative;
+      margin-top: 4rem;
+    }
+
+    .timeline__group:first-of-type {
+      margin-top: 0;
+    }
+
+    .timeline .timeline__year {
+      padding: .5rem 1.5rem;
+      color: var(--timelineSecondaryColor);
+      background-color:var(--timelineBgColor);
+      /* placement  */
+      position: absolute;
+      top: 0;
+      left: 0;
     }
