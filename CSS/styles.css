@@ -40,10 +40,17 @@ p:last-child {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  border: 1px solid red;
 }
    .timeline-section__container {
      flex-grow: 1;
      max-width: 800px;
      padding: 3rem;
      margin: 0 auto;
+     border: 1px solid black;
    }
+    .timeline {
+      --timelineMainColor: var(--timelineMainColor, #222);
+      --timelineSecondaryColor: var(--timelineMainColor, #fff);
+      --timelineBgColor: var(--timelineBgColor, #4557bb);
+    }
