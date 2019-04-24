@@ -35,3 +35,6 @@ p {
   line-height: 1.45;
   margin-bottom: 1.5rem;
 }
+p:last-child {
+  margin-bottom: 0;
+}
