@@ -25,11 +25,7 @@ body {
   overflow-y: scroll; 
 }
 
-.wrapper {
-  width: 60%;
-  margin: 0 auto; 
-  border: 1px solid red;
-}
+
 p {
   border: 1px solid black;
   line-height: 1.45;
@@ -45,3 +41,9 @@ p:last-child {
   flex-direction: column;
   justify-content: space-around;
 }
+   .timeline-section__container {
+     flex-grow: 1;
+     max-width: 800px;
+     padding: 3rem;
+     margin: 0 auto;
+   }
