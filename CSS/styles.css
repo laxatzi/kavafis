@@ -56,6 +56,7 @@ p:last-child {
       padding: 3rem 0;
       position: relative;
       border: 1px solid green;
+     
     }
 
     .timeline__group {
@@ -143,7 +144,8 @@ p:last-child {
          border-left: 3px solid var(--timelineBgColor);
          border-radius: 3px;
          padding: 1.5rem 2rem;
-         width: 100%
+         width: 90%;
+         margin-left: 10%;
        }
 
 
