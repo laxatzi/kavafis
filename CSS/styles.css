@@ -152,18 +152,24 @@ p:last-child {
 @media screen and (max-width: 500px )  {
   
 
-  .timeline__date  {
+  .timeline__content  {
     font-size: 90%
   }
-
+  .timeline__date span {
+    font-size: 80%;
+  }
   .timeline:before {
     content: "";
     position: absolute;
     top: 3rem;
     left: 30px;
     width: 4px;
-    height: 90%;
-    background-color: var(--timelineBgColor);
+    height: 85%;
+  }
+  .timeline__content {
+    padding: 1rem 1.25rem;
+    width: 90%;
+    margin-left: 10%;
   }
 
 }
