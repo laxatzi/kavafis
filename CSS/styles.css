@@ -117,7 +117,7 @@ p:last-child {
       top: 3rem;
       left: 30px;
       width: 4px;
-      height: 90%;
+      height: 85%;
       background-color: var(--timelineBgColor);
     }
 
